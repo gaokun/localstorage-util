@@ -2,6 +2,7 @@
   "name": "localstorage-util",
   "version": "1.0.0",
   "main": "src/index.js",
+  "keywords": ["localstorage"],
   "repository": "https://github.com/gaokun/localstorage-util.git",
   "author": "Ken <kytogether@vip.qq.com>",
   "license": "MIT",
