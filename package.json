@@ -1,10 +1,14 @@
 {
   "name": "localstorage-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
-  "keywords": ["localstorage"],
+  "keywords": [
+    "localstorage"
+  ],
   "repository": "https://github.com/gaokun/localstorage-util.git",
   "author": "Ken <kytogether@vip.qq.com>",
   "license": "MIT",
-  "files": ["src"]
+  "files": [
+    "src"
+  ]
 }
