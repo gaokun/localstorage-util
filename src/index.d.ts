@@ -24,3 +24,5 @@ declare class LocalStorageUtil {
 
   clear(): void
 }
+
+declare module 'localstorage-util';
