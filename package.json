@@ -1,8 +1,8 @@
 {
   "name": "localstorage-util",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "src/index.mjs",
-  "browser": "src/localstorage.util.js",
+  "browser": "src/localstorage-util.js",
   "typings": "src/index.d.ts",
   "keywords": [
     "localstorage"
