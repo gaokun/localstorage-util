@@ -21,21 +21,32 @@ const LS = new LocalStorageUtil({ prefix: 'my_project_' });
 LS.set('user', { name: 'Ken' });
 
 const user = LS.get('user');
-
 ```
 
 Browser:
 ```html
-<script src="https://unpkg.com/localstorage-util"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/localstorage-util"></script>
+</head>
+<body>
 
+<script>
+  const myLocalStorage = new LocalStorageUtil({prefix: 'abc'});
+
+  myLocalStorage.set('user', {name: 'zhang', age: 30});
+
+  const user = myLocalStorage.get('user');
+
+  console.log(user);
+</script>
+</body>
+</html>
 ```
-```javascript
-const LS = new LocalStorageUtil({ prefix: 'my_project_' });
 
-LS.set('user', { name: 'Ken' });
-
-const user = LS.get('user');
-```
 ## Contact
  Feel free to contact me if you have any questions.
  

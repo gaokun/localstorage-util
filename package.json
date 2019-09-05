@@ -1,6 +1,6 @@
 {
   "name": "localstorage-util",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/index.js",
   "typings": "src/index.d.ts",
   "keywords": [
