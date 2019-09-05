@@ -61,6 +61,4 @@ class LocalStorageUtil {
   }
 }
 
-if (typeof window === undefined) {
-  module.exports.default = LocalStorageUtil;
-}
+export default LocalStorageUtil;
