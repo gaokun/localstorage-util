@@ -10,6 +10,32 @@ localStorage util, support version upgrade & data expire
 
 get will get the data exactly what set saved
 
+## How to use 
+
+webpack:
+```javascript
+import LocalStorageUtil from 'localstorage-util';
+
+const LS = new LocalStorageUtil({ prefix: 'my_project_' });
+
+LS.set('user', { name: 'Ken' });
+
+const user = LS.get('user');
+
+```
+
+Browser:
+```html
+<script src="https://unpkg.com/localstorage-util"></script>
+
+```
+```javascript
+const LS = new LocalStorageUtil({ prefix: 'my_project_' });
+
+LS.set('user', { name: 'Ken' });
+
+const user = LS.get('user');
+```
 ## Contact
  Feel free to contact me if you have any questions.
  
